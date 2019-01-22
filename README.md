@@ -39,7 +39,10 @@ The default lifecycle handles your project deployment, the clean lifecycle handl
 
 ## Using the terminal execute the command mvn compile. Take the output screenshot. What is this command using for? What are transitive dependencies?
 ![compile](compile.JPG)
+as we can see the compile command compiles the entire project and check that everything is ok and every file compiles, when everything compiles it shows the build success message.
 ## Using the terminal execute the command mvn package. Take the output screenshot. What is this command using for?
 ![package](package.JPG)
+the package command goes one step further of the compile command, when we use the package command it executes the compile command and also try the test files to check that the application is doing what it is suposed to do, when everything is working correctly it shows the build success message.
 ## Using the terminal execute the command mvn install. Take the output screenshot. What is this command using for?
 ![install](install.JPG)
+finally the install command applies the package command and when everything is ok it create the packaging file we specify beforfe on the pom.xml file, in this case a .jar file.
