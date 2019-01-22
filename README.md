@@ -46,3 +46,5 @@ the package command goes one step further of the compile command, when we use th
 ## Using the terminal execute the command mvn install. Take the output screenshot. What is this command using for?
 ![install](install.JPG)
 finally the install command applies the package command and when everything is ok it create the packaging file we specify beforfe on the pom.xml file, in this case a .jar file.
+## Use the following command to execute the file-spy application mvn exec:java -Dexec.mainClass="edu.eci.FileSpy". Take the output screenshot.
+![exec](exec.JPG)
