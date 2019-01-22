@@ -17,6 +17,8 @@ the groupId identifies the project among the other projects created with maven, 
 this means that the groupId must follow the naming convention of java, for example:<br/>
   -org.apache.maven <br/>
   -org.apache.commons.<br/>
-where maven and commons are diferent projects with an unique groupId.
+where maven and commons are diferent projects with an unique groupId.<br/>
 
-
+on the other hand the artifactId refers to the name we want to give to the project (if we created it) and the name it will be displayed at the .jar file.
+## Describe the content of the directory that has been created.
+the directory contains a src folder and a pom.xml file, the src file contains the main and test folders,each folder contains the route java/edu/eci/ and finally the files App.java and AppTest.java respectively.
