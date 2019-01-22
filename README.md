@@ -4,7 +4,7 @@
 ![captura](maven.PNG)
 
 ## What do means the -B option in the command?
-the -B option means that the project will be created in batch-mode.
+the -B option means that the project will be created in batch-mode.\
 this means that the project will be created with the default values for the release version instead of asking for them.
 
 ## What do means the -D option in the command?
