@@ -38,8 +38,8 @@ The default lifecycle handles your project deployment, the clean lifecycle handl
 
 
 ## Using the terminal execute the command mvn compile. Take the output screenshot. What is this command using for? What are transitive dependencies?
-![compile](compile.PNG)
+![compile](compile.JPG)
 ## Using the terminal execute the command mvn package. Take the output screenshot. What is this command using for?
-![package](package.PNG)
+![package](package.JPG)
 ## Using the terminal execute the command mvn install. Take the output screenshot. What is this command using for?
-![install](install.PNG)
+![install](install.JPG)
