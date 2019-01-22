@@ -14,9 +14,9 @@ acording to MAVEN: "The groupId, artifactId, version and package are the main pr
 this means that every project must have this properties defined.
 ## What do means the groupId, artifactId properties in the command?
 the groupId identifies the project among the other projects created with maven, this means that each project has a diferent groupId
-this means that the groupId must follow the naming convention of java, for example: \ 
-  -org.apache.maven \
-  -org.apache.commons.\
+this means that the groupId must follow the naming convention of java, for example:<br/>
+  -org.apache.maven <br/>
+  -org.apache.commons.<br/>
 where maven and commons are diferent projects with an unique groupId.
 
 
