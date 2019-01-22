@@ -33,3 +33,6 @@ the packaging tag specifies the way maven will package the project when we run i
 the purpose of the dependencies and dependency tags is to add certain tools and frameworks to the project in order to use them,these frameworks are hold on the maven repository(https://mvnrepository.com/) and acording to what we need we search them and add the dependency tag 
 on the POM file. when we are done we close the dependencies tags in order to specify that no other dependency is needed.
 
+## The three principal Maven lifecycles are clean, default and site. Describe each one.
+The default lifecycle handles your project deployment, the clean lifecycle handles project cleaning, while the site lifecycle handles the creation of your project's site documentation.(https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
