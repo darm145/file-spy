@@ -46,5 +46,8 @@ the package command goes one step further of the compile command, when we use th
 ## Using the terminal execute the command mvn install. Take the output screenshot. What is this command using for?
 ![install](install.JPG)
 finally the install command applies the package command and when everything is ok it create the packaging file we specify beforfe on the pom.xml file, in this case a .jar file.
+## Replace the code of the App.java class with the following code and do all the necessary steps to compile the code.
+we must modify the DIR_TO_WATCH String on the FileSpy.java file into a direction available in our computer, then we use mvn clean to remove the previous version of the jar wich contains the wrong DIR_TO_WATCH String, finally we use mvn install to create the new .jar file.
 ## Use the following command to execute the file-spy application mvn exec:java -Dexec.mainClass="edu.eci.FileSpy". Take the output screenshot.
 ![exec](exec.JPG)
+## But this time you should knew that the application detect events in a folder when you add new files and print on the screen all the files with the text/csv extension. Test the application using the examples files. Take the output screenshot.
