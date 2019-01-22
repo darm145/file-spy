@@ -12,3 +12,8 @@ the -D option refer to a system property of the project, each property is preced
 for example to specify the groupId we will write the -DgroupId command.
 acording to MAVEN: "The groupId, artifactId, version and package are the main properties to be set" (https://maven.apache.org/archetype/maven-archetype-plugin/examples/generate-batch.html)
 this means that every project must have this properties defined.
+## What do means the groupId, artifactId properties in the command?
+the groupId identifies the project among the other projects created with maven, this means that each project has a diferent groupId
+this means that the groupId must follow the naming convention of java, for example:
+  -org.apache.maven  
+  -org.apache.commons
