@@ -30,5 +30,6 @@ should remove the SNAPSHOT tag and specify the version we are want to deploy.
 ## What is the purpose of the packing tag into the POM file?
 the packaging tag specifies the way maven will package the project when we run it, if the packaging tag is missing maven will set it .jar as default, acording to maven the current core packaging values are: pom, jar, maven-plugin, ejb, war, ear and rar.
 ## What is the purpose of the dependencies and dependency tags into the POM file?
-the purpose of the dependencies and dependency tags is to add certain tools and frameworks to the project in order to use them,these frameworks are hold on the maven repository(https://mvnrepository.com/) and acording to what we need we search them and add the dependency and dependencies tags
-on the POM file.
+the purpose of the dependencies and dependency tags is to add certain tools and frameworks to the project in order to use them,these frameworks are hold on the maven repository(https://mvnrepository.com/) and acording to what we need we search them and add the dependency tag 
+on the POM file. when we are done we close the dependencies tags in order to specify that no other dependency is needed.
+
