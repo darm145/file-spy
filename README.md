@@ -36,3 +36,10 @@ on the POM file. when we are done we close the dependencies tags in order to spe
 ## The three principal Maven lifecycles are clean, default and site. Describe each one.
 The default lifecycle handles your project deployment, the clean lifecycle handles project cleaning, while the site lifecycle handles the creation of your project's site documentation.(https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
+
+## Using the terminal execute the command mvn compile. Take the output screenshot. What is this command using for? What are transitive dependencies?
+![compile](compile.PNG)
+## Using the terminal execute the command mvn package. Take the output screenshot. What is this command using for?
+![package](package.PNG)
+## Using the terminal execute the command mvn install. Take the output screenshot. What is this command using for?
+![install](install.PNG)
