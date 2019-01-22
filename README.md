@@ -22,3 +22,13 @@ where maven and commons are diferent projects with an unique groupId.<br/>
 on the other hand the artifactId refers to the name we want to give to the project (if we created it) and the name it will be displayed at the .jar file.
 ## Describe the content of the directory that has been created.
 the directory contains a src folder and a pom.xml file, the src file contains the main and test folders,each folder contains the route java/edu/eci/ and finally the files App.java and AppTest.java respectively.
+
+## What do means the word SNAPSHOT in the version value?
+the SNAPSHOT tag means that the project is still under development and should not be released yet, when we want to release the project we 
+should remove the SNAPSHOT tag and specify the version we are want to deploy.
+
+## What is the purpose of the packing tag into the POM file?
+the packaging tag specifies the way maven will package the project when we run it, if the packaging tag is missing maven will set it .jar as default, acording to maven the current core packaging values are: pom, jar, maven-plugin, ejb, war, ear and rar.
+## What is the purpose of the dependencies and dependency tags into the POM file?
+the purpose of the dependencies and dependency tags is to add certain tools and frameworks to the project in order to use them,these frameworks are hold on the maven repository(https://mvnrepository.com/) and acording to what we need we search them and add the dependency and dependencies tags
+on the POM file.
