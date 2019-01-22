@@ -51,3 +51,4 @@ we must modify the DIR_TO_WATCH String on the FileSpy.java file into a direction
 ## Use the following command to execute the file-spy application mvn exec:java -Dexec.mainClass="edu.eci.FileSpy". Take the output screenshot.
 ![exec](exec.JPG)
 ## But this time you should knew that the application detect events in a folder when you add new files and print on the screen all the files with the text/csv extension. Test the application using the examples files. Take the output screenshot.
+![found](found.JPG)
